@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/Drum/sounds/pexels-alena-darmel-7715853.jpg) center;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+
+}
+.keys {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.sound {
+    color: rgb(236, 236, 100);
+    font-size: small;
+}
+.key {
+    border: 1px solid rgb(243, 209, 16);
+    padding: 0.7rem 0.5rem;
+    background: transparent;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: larger;
+    width: 5rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(224, 248, 5);
+    box-shadow: 0 0 0.5rem yellow;
+}
